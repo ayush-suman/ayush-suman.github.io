@@ -36,13 +36,15 @@ a{
 
 @media only screen and (min-width: 992px) {
     #meet {
-        margin: 50px;
+        margin-inline-start: 80px;
+        margin-top: 80px;
+        margin-bottom: 50px;
         font-size: 100px;
     }
 
     #hi {
         font-size: 40px;
-        margin-inline-start: 50px;
+        margin-inline-start: 80px;
     }
 }
 
