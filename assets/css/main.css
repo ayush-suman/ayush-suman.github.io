@@ -18,14 +18,29 @@ a{
     font-family: GoogleSans, sans-serif;
 }
 
-#meet {
-    margin: 50px;
-    font-size: 100px;
+
+@media only screen and (max-width: 768px) {
+    #meet {
+        margin: 50px;
+        font-size: 200px;
+    }
+
+    #hi {
+        font-size: 80px;
+        margin-inline-start: 50px;
+    }
+
 }
 
-#hi {
-    margin-inline-start: 50px;
+@media only screen and (min-width: 768px) {
+    #meet {
+        margin: 50px;
+        font-size: 100px;
+    }
+
+    #hi {
+        font-size: 40px;
+        margin-inline-start: 50px;
+    }
 }
-
-
 
