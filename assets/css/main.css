@@ -1,0 +1,31 @@
+body{
+    background-color: darkslategray;
+}
+
+@font-face {
+    font-family: GoogleSans;
+    src: url("../fonts/googlesans.ttf");
+}
+
+p {
+    color: aquamarine;
+    font-family: GoogleSans, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+    font-family: GoogleSans, sans-serif;
+}
+
+#meet {
+    margin: 50px;
+    font-size: 100px;
+}
+
+#hi {
+    margin-inline-start: 50px;
+}
+
+
+
