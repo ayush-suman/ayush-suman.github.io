@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/Poppins-Regular.woff') format('woff');
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    --background-color: #3C3F41;
+}
+
+.home {
+    display: grid;
+    grid-template-rows: 14.28vh 14.28vh 14.28vh 14.28vh 14.28vh 14.28vh 14.28vh;
+}
+
+#ayush-pic {
+    float: left;
+    height: 110vh;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.meet {
+    grid-row: 3;
+    margin-left: 56vw;
+    width: max-content;
+    height: min-content;
+    display: inline;
+    font-size: 90px;
+    background: radial-gradient(#194476, #E134A6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-me {
+    font-size: 32px;
+    color: #877680;
+    grid-row: 5;
+    display: inline-block;
+    grid-column: 1;
+    width: max-content;
+}
+
+#about-me {
+    margin-left: 58vw;
+}
