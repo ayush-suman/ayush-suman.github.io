@@ -46,3 +46,8 @@ body {
 #about-me {
     margin-left: 58vw;
 }
+
+.signature {
+    width: 20vw;
+    margin: auto;
+}
